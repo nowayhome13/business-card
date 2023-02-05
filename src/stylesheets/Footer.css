@@ -1,0 +1,26 @@
+.footer{
+    background-color:#161619;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 23px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    
+}
+
+footer>img {
+    transition: 0.4s;
+    border-radius: 9px;
+}
+
+footer>img:hover {
+    width: 35px;
+}
+
+footer>img:active  {
+    opacity: 0.5;
+}
